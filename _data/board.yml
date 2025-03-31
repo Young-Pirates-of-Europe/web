@@ -1,0 +1,34 @@
+- name: SAMUEL ENENKL
+  role: PRESIDENT
+  country: Czech Republic
+  pic:  ./assets/pics/Sam250x250.png
+  
+- name:     MAIJA RAUDASKOSKI
+  role:     SECRETARY GENERAL
+  country:  Finland
+  pic:  ./assets/pics/Maija250x250.png
+ 
+- name:     FLORIAN ROUSSEL
+  role:     TREASURER
+  country:  France
+  pic:  ./assets/pics/Florian250x250.png
+ 
+- name:     REBECCA LAU
+  role:     BOARD MEMBER
+  country:  Luxembourg
+  pic:  ./assets/pics/Becky250x250.png
+ 
+- name:     ELIOTT-SPENCER HJALTALÍN
+  role:     BOARD MEMBER
+  country:  Iceland
+  pic:  ./assets/pics/Elliot-Spencer250x250.png
+ 
+- name:     MILI SLOUKOVÁ
+  role:     BOARD MEMBER
+  country:  Czech Republic
+  pic:  ./assets/pics/Mili250x250.png
+ 
+- name:     PHILIP JOHANSSON
+  role:     BOARD MEMBER
+  country:  Sweden
+  pic:  ./assets/pics/Philip250x250.png

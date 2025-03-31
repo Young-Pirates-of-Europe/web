@@ -1,0 +1,31 @@
+- name:    JEUNES PIRATES
+  country: FRANCE
+  pic: "./assets/logos/YPE.png"
+
+- name:    JONK PIRATEN
+  country: LUXEMBOURG
+  pic: "./assets/logos/YPLU.png"
+
+- name:    JUNGE PIRATEN
+  country: GERMANY
+  pic: "./assets/logos/YPDE.svg"
+
+- name:    MLADÉ PIRÁTSTVO
+  country: CZECH REPUBLIC
+  pic: "./assets/logos/YPCZ.svg"
+
+- name:    MLADI PIRATI
+  country: SLOVENIA
+  pic: "./assets/logos/YPSI.jpg"
+
+- name:    PIRAATTINUORET
+  country: FINLAND
+  pic: "./assets/logos/YPFI.png"
+
+- name:    UNG PIRAT
+  country: SWEDEN
+  pic: "./assets/logos/YPSE.png"
+
+- name:    UNGIR PÍRATAR
+  country: ICELAND
+  pic: "./assets/logos/YPIS.png"
