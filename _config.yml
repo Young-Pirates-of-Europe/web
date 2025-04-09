@@ -2,8 +2,6 @@ title: Young Pirates of Europe
 email: office@young-pirates.eu
 description: >-
    Young Pirates of Europe is the umbrella organisation of young European digital rights and Pirate organisations. Our vision is to see major improvements for everyone – specifically young people but also women and other structurally excluded groups – bla bla we will write this text again anyway, I just needed to put something here. Our goal is to build a movement of young people uniting to achieve the aims laid out in the vision. 
-baseurl: "/"
-url: "https://young-pirates.eu"
 
 markdown: kramdown
 theme: minima
