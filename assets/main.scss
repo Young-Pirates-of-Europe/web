@@ -63,9 +63,9 @@ li {
   list-style-type: none;
 }
 
-section {
+section, aside {
   padding-top: 90px;
-  padding-bottom: 2em;
+  padding-bottom: 90px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -112,7 +112,8 @@ section {
   background: #bacad3;
   display: flex;
   > div {
-    max-width: 50em;
+    max-width: calc(var(--content-width) - 20rem);
+    padding-bottom: 90px;
   }
 
   @media (width > 1000px) {
@@ -133,7 +134,7 @@ section {
 
   >ul {
     flex-direction: column;
-    max-width: 30em;
+    max-width: 20rem;
   }
 
   width: 100%;
@@ -188,7 +189,7 @@ section {
       text-align: left;
       justify-items: space-between;
     }
-    max-width: 60rem;
+    width: var(--content-width);
   }
 
   .contact-content {
@@ -197,7 +198,7 @@ section {
 }
 
 #transparency ul {
-  width: 60em;
+  max-width: 60em;
 }
 
 #transparency li {
@@ -256,4 +257,8 @@ section {
       mix-blend-mode: difference;
     }
   }
+}
+:root {
+  --content-width: 59rem;
+  --breakpoint: 1000px;
 }

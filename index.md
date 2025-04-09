@@ -35,9 +35,14 @@ title: Young Pirates of Europe
         <h4>{{ member.country }}</h4>
       </div>
       <div>
-        <span class="grey fa-solid fa-envelope fa-lg"></span>
-        <span class="grey fa-brands fa-facebook fa-lg"></span>
-        <span class="grey fa-brands fa-instagram fa-lg"></span>
+        <a href="mailto:{{member.email}}">
+            <span class="grey fa-solid fa-envelope fa-lg"></span>
+        </a>
+        {%- for entry in member.social_links -%}
+        <a rel="me" href="{{ entry.url }}" target="_blank" title="{{ entry.title }}">
+            <span class="grey fa-brands fa-{{ entry.icon }} fa-lg"></span>
+        </a>
+        {%- endfor -%}
       </div>
     </li>
     {% endfor %}

@@ -25,6 +25,14 @@
 - name:    UNG PIRAT
   country: SWEDEN
   pic: "./assets/logos/YPSE.png"
+  email: kansliet@ungpirat.se
+  social_links:
+    - url: https://www.facebook.com/ungpirat/
+      icon: facebook
+    - url: https://x.com/ung_pirat
+      icon: x-twitter
+    - url: https://www.instagram.com/ungpirat/
+      icon: instagram
 
 - name:    UNGIR PÍRATAR
   country: ICELAND
