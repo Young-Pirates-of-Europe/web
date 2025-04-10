@@ -29,12 +29,12 @@ title: Young Pirates of Europe
   <ul>
     {% for member in site.data.mo %}
     <li>
-      <img src="{{ member.pic }}" />
+      <div class="mo-pic"><img src="{{ member.pic }}" /></div>
       <div class="mo-info">
         <h3>{{ member.name }}</h3>
         <h4>{{ member.country }}</h4>
       </div>
-      <div>
+      <div class="mo-icons">
         <a href="mailto:{{member.email}}">
             <span class="grey fa-solid fa-envelope fa-lg"></span>
         </a>
@@ -99,7 +99,7 @@ title: Young Pirates of Europe
 </section>
 
 <section id="contact">
-  <div class="wrapper">
+  <div class="contact-wrapper">
     <div>
       <h2>Contact</h2>
       <h3>Name</h3>
@@ -111,10 +111,10 @@ title: Young Pirates of Europe
       F10614 registered in R.C.S Luxembourg
       <br />
     </div>
-    <div>  
-      <span class="grey fa-solid fa-envelope fa-lg"></span>
-      <span class="grey fa-brands fa-facebook fa-lg"></span>
-      <span class="grey fa-brands fa-instagram fa-lg"></span>
+    <div class="main-socials">
+      <span class="grey fa-solid fa-envelope fa-3x"></span>
+      <span class="grey fa-brands fa-facebook fa-3x"></span>
+      <span class="grey fa-brands fa-instagram fa-3x"></span>
     </div>
   </div>
 </section>

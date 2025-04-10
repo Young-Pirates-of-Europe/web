@@ -74,12 +74,36 @@ section, aside {
 }
 
 .mo-info {
-  width: 10em;
+  max-width: 10em;
+  padding: 2em;
+  justify-self: center;
+}
+
+.mo-pic {
+  aspect-ratio: 1/1;
+  max-width: 5rem;
+  min-width: 1rem;
+  margin-bottom: auto;
+  width: 100%;
+}
+
+.mo-icons {
+  margin-top: auto;
 }
 
 .nav-item {
   filter: invert(1);
   mix-blend-mode: difference;
+}
+
+.main-socials {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+  @media (width > 1000px) {
+    flex-direction: column;
+  }
 }
 
 #board {
@@ -112,7 +136,6 @@ section, aside {
   background: #bacad3;
   display: flex;
   > div {
-    max-width: calc(var(--content-width) - 20rem);
     padding-bottom: 90px;
   }
 
@@ -122,6 +145,9 @@ section, aside {
     align-items: start;
     padding-left: 2em;
     padding-right: 0;
+    > div {
+      max-width: calc(var(--content-width) - 20rem);
+    }
   }
 }
 
@@ -161,35 +187,45 @@ section, aside {
   li {
     display: flex;
     align-items: center;
-    justify-content: space-around;
     margin: 1em;
     flex-flow: column nowrap;
+    margin: 1em;
+    padding: 2em;
 
     @media (width <=1000px) {
       flex-flow: row nowrap;
-      min-width: 40em;
-      padding: 2em;
-      margin: 1em;
+      min-width: min(40em, calc(100vw - 6em));
+      padding:unset;
+      margin:unset;
+      padding-top:2em;
+      .mo-pic {
+        margin-bottom: unset;
+        margin-right: auto;
+      }
+      .mo-icons {
+        margin-top: unset;
+        margin-left: auto;
+      }
     }
 
-    img {
-      max-width: 5em;
-    }
   }
 }
 
 #contact {
   background: #ffcc00;
-  .wrapper {
+  .contact-wrapper {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 
-    @media (width > 700px) {
+    @media (width > 1000px) {
       flex-direction: row;
       text-align: left;
-      justify-items: space-between;
+      width: var(--content-width);
+      align-items:start;
     }
-    width: var(--content-width);
+    max-width: var(--content-width);
   }
 
   .contact-content {
@@ -202,7 +238,7 @@ section, aside {
 }
 
 #transparency li {
-  width: 15em;
+  max-width: 15em;
   margin: 2em;
 }
 
@@ -259,6 +295,6 @@ section, aside {
   }
 }
 :root {
-  --content-width: 59rem;
+  --content-width: min(59rem, 100vw);
   --breakpoint: 1000px;
 }
