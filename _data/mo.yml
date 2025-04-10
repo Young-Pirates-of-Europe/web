@@ -1,18 +1,22 @@
 - name:    JEUNES PIRATES
   country: FRANCE
   pic: "./assets/logos/YPE.png"
+  email: jeunespirates@partipirate.org
 
 - name:    JONK PIRATEN
   country: LUXEMBOURG
   pic: "./assets/logos/YPLU.png"
+  email: christian@piraten.lu
 
 - name:    JUNGE PIRATEN
   country: GERMANY
   pic: "./assets/logos/YPDE1.png"
+  email: koordination@jungepiraten.de
 
 - name:    MLADÉ PIRÁTSTVO
   country: CZECH REPUBLIC
   pic: "./assets/logos/YPCZ.svg"
+  email: mladepiratstvo@pirati.cz
   social_links:
     - url: https://www.facebook.com/search/top?q=mlad%C3%A9%20pir%C3%A1tstvo
       icon: facebook
@@ -24,10 +28,12 @@
 - name:    MLADI PIRATI
   country: SLOVENIA
   pic: "./assets/logos/YPSI.jpg"
+  email: info@mladipirati.si
 
 - name:    PIRAATTINUORET
   country: FINLAND
   pic: "./assets/logos/ypfi1.png"
+  email: info@piraattinuoret.fi
 
 - name:    UNG PIRAT
   country: SWEDEN
@@ -44,3 +50,4 @@
 - name:    UNGIR PÍRATAR
   country: ICELAND
   pic: "./assets/logos/YPIS.png"
+  email: up@piratar.is
