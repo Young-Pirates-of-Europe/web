@@ -15,7 +15,7 @@
   pic: "./assets/logos/YPCZ.svg"
   social_links:
     - url: https://mladi.pirati.cz/
-      icon: globe
+      icon: fa-solid fa-globe
     - url: https://www.facebook.com/search/top?q=mlad%C3%A9%20pir%C3%A1tstvo
       icon: facebook
     - url: https://twitter.com/MPiratstvo
