@@ -16,7 +16,7 @@ title: Young Pirates of Europe
   <ul>
     {% for post in site.posts limit:3 %}
     <li>
-      <h3>{{ post.date | date: "%Y-%m-%d" }}</h3>
+      <h3>{{ post.date | date: "%d-%m-%Y" }}</h3>
       {{ post.content }}
     </li>
     {% endfor %}
