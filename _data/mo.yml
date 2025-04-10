@@ -13,7 +13,14 @@
 - name:    MLADÉ PIRÁTSTVO
   country: CZECH REPUBLIC
   pic: "./assets/logos/YPCZ.svg"
-
+  social_links:
+    - url: https://www.facebook.com/search/top?q=mlad%C3%A9%20pir%C3%A1tstvo
+      icon: facebook
+    - url: https://twitter.com/MPiratstvo
+      icon: x-twitter
+    - url: https://www.instagram.com/mlade.piratstvo/
+      icon: instagram
+      
 - name:    MLADI PIRATI
   country: SLOVENIA
   pic: "./assets/logos/YPSI.jpg"
