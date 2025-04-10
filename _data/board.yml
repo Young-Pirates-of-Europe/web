@@ -7,6 +7,11 @@
   role:     SECRETARY GENERAL
   country:  Finland
   pic:  ./assets/pics/Maija250x250.png
+
+- name:    ELIOTT-SPENCER HJALTALÍN
+  role:    TREASURER
+  country: Iceland
+  pic: ./assets/pics/Elliot-Spencer250x250.png
  
 - name:     REBECCA LAU
   role:     BOARD MEMBER
