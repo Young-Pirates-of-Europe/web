@@ -112,9 +112,9 @@ title: Young Pirates of Europe
       <br />
     </div>
     <div class="main-socials">
-      <span class="grey fa-solid fa-envelope fa-3x"></span>
-      <span class="grey fa-brands fa-facebook fa-3x"></span>
-      <span class="grey fa-brands fa-instagram fa-3x"></span>
+      <a href="mailto:young-pirates.eu"><span class="grey fa-solid fa-envelope fa-3x"></span></a>
+      <a href="https://www.facebook.com/youngpiratesEU/"><span class="grey fa-brands fa-facebook fa-3x"></span></a>
+      <a href="https://www.instagram.com/youngpirateseu/"><span class="grey fa-brands fa-instagram fa-3x"></span></a>
     </div>
   </div>
 </section>

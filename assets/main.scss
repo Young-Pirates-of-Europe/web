@@ -104,6 +104,10 @@ section, aside {
   @media (width > 1000px) {
     flex-direction: column;
   }
+  a {
+    margin: 1em;
+    color: black;
+  }
 }
 
 #board {
