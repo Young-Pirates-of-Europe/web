@@ -31,7 +31,7 @@
 
 - name:    UNG PIRAT
   country: SWEDEN
-  pic: "./assets/logos/YPSE1.svg"
+  pic: "./assets/logos/YPSE1.png"
   email: kansliet@ungpirat.se
   social_links:
     - url: https://www.facebook.com/ungpirat/
