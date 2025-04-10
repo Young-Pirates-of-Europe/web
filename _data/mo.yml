@@ -13,10 +13,10 @@
   pic: "./assets/logos/YPDE1.png"
   email: koordination@jungepiraten.de
   social_links: 
-    - url: https://www.instagram.com/jungepiratende/
-      icon: instagram
     - url: https://twitter.com/JungePiraten_DE
       icon: x-twitter
+    - url: https://www.instagram.com/jungepiratende/
+      icon: instagram
 
 - name:    MLADÉ PIRÁTSTVO
   country: CZECH REPUBLIC
