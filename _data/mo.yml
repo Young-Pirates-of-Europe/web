@@ -12,6 +12,11 @@
   country: GERMANY
   pic: "./assets/logos/YPDE1.png"
   email: koordination@jungepiraten.de
+  social_links: 
+    - url: https://www.instagram.com/jungepiratende/
+      icon: instagram
+    - url: https://twitter.com/JungePiraten_DE
+      icon: x-twitter
 
 - name:    MLADÉ PIRÁTSTVO
   country: CZECH REPUBLIC
@@ -29,11 +34,23 @@
   country: SLOVENIA
   pic: "./assets/logos/YPSI.jpg"
   email: info@mladipirati.si
+  social_links:
+    - url: https://www.facebook.com/MladiPiratiSlovenije
+      icon: facebook
+    - url: https://www.instagram.com/mladipiratisi/
+      icon: instagram
 
 - name:    PIRAATTINUORET
   country: FINLAND
   pic: "./assets/logos/ypfi1.png"
   email: info@piraattinuoret.fi
+  social_links:
+    - url: https://www.facebook.com/piraattinuoret
+      icon: facebook
+    - url: https://www.instagram.com/piraattinuoret/
+      icon: instagram
+    - url: https://twitter.com/piraattinuoret
+      icon: twitter
 
 - name:    UNG PIRAT
   country: SWEDEN
@@ -51,3 +68,8 @@
   country: ICELAND
   pic: "./assets/logos/YPIS.png"
   email: up@piratar.is
+  social_links:
+    - url: https://www.facebook.com/ungirpiratar
+      icon: facebook
+    - url: https://www.instagram.com/ungirpiratar/?hl=en
+      icon: instagram
