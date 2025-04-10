@@ -47,10 +47,10 @@
   social_links:
     - url: https://www.facebook.com/piraattinuoret
       icon: facebook
+    - url: https://twitter.com/piraattinuoret
+      icon: x-twitter
     - url: https://www.instagram.com/piraattinuoret/
       icon: instagram
-    - url: https://twitter.com/piraattinuoret
-      icon: twitter
 
 - name:    UNG PIRAT
   country: SWEDEN
