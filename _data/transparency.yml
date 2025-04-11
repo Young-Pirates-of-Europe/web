@@ -11,19 +11,19 @@
 - title:       Financials
   description: All documents surrounding the financing of this association are grouped here. This primarily constists of proposed budgets and closing budgets.
   linktext:        View current financials
-  url: https://www.youtube.com/watch?v=8tsHkpesBdY
+  url: https://cloud.partipirate.org/index.php/s/seDzJWi86B2YZQF
 
 - title:       Statutes
   description: Main rules of the association which consists of setting primary bodies of the association and its powers.
   linktext:        View current statutes
   url: https://cloud.partipirate.org/index.php/s/Y5Y8ZQzFNeJwxBp
 
-- title:       IROP
+- title:       IROP (WORK IN PROGRESS)
   description: Internal Rules of Procedures expand the scope of the statutes and further specify the functioning of the association.
   linktext:        View current IROP
-  url: https://www.youtube.com/watch?v=mlv95aY1dOE
+  url: 
 
-- title:       Archive
+- title:       Archive (WORK IN PROGRESS)
   description: All other documents or materials of the association can be found here.
   linktext:        View
-  url: https://mastodon.nu/@philip
+  url:
