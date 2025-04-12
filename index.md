@@ -63,17 +63,7 @@ title: Young Pirates of Europe
       {% endfor %}
     </li>
     <li class="inner">
-      {% for member in site.data.board limit: 2 offset: 3%}
-      <div>
-        <img src="{{ member.pic }}" />
-        <h3>{{ member.name }}</h3>
-        <h3>{{ member.role }}</h3>
-        <p>{{ member.country }}</p>
-      </div>
-      {% endfor %}
-    </li>
-    <li class="inner">
-      {% for member in site.data.board offset: 5%}
+      {% for member in site.data.board limit: 3 offset: 3%}
       <div>
         <img src="{{ member.pic }}" />
         <h3>{{ member.name }}</h3>
